@@ -1,9 +1,9 @@
-def square_array(array)
   new_array = []
   i = 0
+def square_array(array)
   while i < square_array.length do
     new_array << (array[i]**2)
     i += 1
-end
+  end
 new_array
 end
